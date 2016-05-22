@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <!--Make the web app mobile friendly-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Load our colors from the Material Design Lite CDN-->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue-indigo.min.css" />
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Two Line List with secondary info and action -->
+<style>
+.demo-list-two {
+  width: 100%;
+}
+</style>
+
+
+</head>
+
+<body>
+
+    <!-- Simple header with scrollable tabs. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Broken PDF Merge</span>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <!-- Flat button with ripple -->
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="color: white;">
+                    Merge
+                </button>
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="color: white;">
+                    Up
+                </button>
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="color: white;">
+                    Down
+                </button>
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="color: white;">
+                    Remove
+                </button>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+        </div>
+        <ul class="demo-list-two mdl-list">
+  <li class="mdl-list__item mdl-list__item--two-line">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>My law document.pdf</span>
+      <span class="mdl-list__item-sub-title">/home/podi/Downloads/My law document.pdf</span>
+    </span>
+  </li>
+  <li class="mdl-list__item mdl-list__item--two-line">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>My law document.pdf</span>
+      <span class="mdl-list__item-sub-title">/home/podi/Downloads/My law document.pdf</span>
+    </span>
+  </li>
+  <li class="mdl-list__item mdl-list__item--two-line">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>My law document.pdf</span>
+      <span class="mdl-list__item-sub-title">/home/podi/Downloads/My law document.pdf</span>
+    </span>
+  </li>
+</ul>
+        <!-- Colored FAB button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" style="position: absolute;right:16;bottom:16">
+            <i class="material-icons">add</i>
+        </button>
+    </div>
+</body>
+
+</html>
